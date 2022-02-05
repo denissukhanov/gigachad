@@ -1,0 +1,24 @@
+.top-banner {
+    background: #74489c;
+}
+
+
+.top-banner.closed .header-features__close {
+    display: none;
+}
+.main-banner-image {
+    background: url("https://img-gorod.ru/uf/36/904/36904.svg") no-repeat center;
+}
+@media (min-width: 1400px) {
+    .main-banner-image {
+        background: url("https://img-gorod.ru/uf/36/903/36903.svg") no-repeat center;
+    }
+}
+
+.top-banner .timer_block {
+    color: #ffffff;
+}
+.top-banner .timer_block .sep:before,
+.top-banner .timer_block .sep:after {
+    background-color: #ffffff;
+}
